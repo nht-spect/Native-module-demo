@@ -19,6 +19,8 @@
 		B22CC40A28C3ACBF002BEF86 /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = B22CC40928C3ACBF002BEF86 /* Counter.m */; };
 		B22CC40C28C441F0002BEF86 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22CC40B28C441F0002BEF86 /* ImagePicker.swift */; };
 		B22CC40E28C44238002BEF86 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B22CC40D28C44238002BEF86 /* ImagePicker.m */; };
+		B254E85E28C70F160002D13F /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254E85D28C70F160002D13F /* ShareContent.swift */; };
+		B254E86228C70FF00002D13F /* ShareContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B254E86128C70FF00002D13F /* ShareContent.m */; };
 		CB86BC637824E17EFA818E54 /* libPods-AwesomeProject-AwesomeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070451223DD535A09804706D /* libPods-AwesomeProject-AwesomeProjectTests.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		B22CC40928C3ACBF002BEF86 /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
 		B22CC40B28C441F0002BEF86 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B22CC40D28C44238002BEF86 /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		B254E85D28C70F160002D13F /* ShareContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContent.swift; sourceTree = "<group>"; };
+		B254E86128C70FF00002D13F /* ShareContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareContent.m; sourceTree = "<group>"; };
 		B34603682014985619A5CD9D /* Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject-AwesomeProjectTests/Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -112,6 +116,8 @@
 				B22CC40928C3ACBF002BEF86 /* Counter.m */,
 				B22CC40B28C441F0002BEF86 /* ImagePicker.swift */,
 				B22CC40D28C44238002BEF86 /* ImagePicker.m */,
+				B254E85D28C70F160002D13F /* ShareContent.swift */,
+				B254E86128C70FF00002D13F /* ShareContent.m */,
 			);
 			name = AwesomeProject;
 			sourceTree = "<group>";
@@ -436,10 +442,12 @@
 				B22CC40828C3AAC2002BEF86 /* Counter.swift in Sources */,
 				B22CC40028C3321B002BEF86 /* RCTCalendarModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				B254E85E28C70F160002D13F /* ShareContent.swift in Sources */,
 				B22CC40C28C441F0002BEF86 /* ImagePicker.swift in Sources */,
 				B22CC40A28C3ACBF002BEF86 /* Counter.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B22CC40E28C44238002BEF86 /* ImagePicker.m in Sources */,
+				B254E86228C70FF00002D13F /* ShareContent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Image, NativeModules, SafeAreaView, StyleSheet, Text } from 'react-native';
+import { Button, Image, NativeModules, SafeAreaView, StyleSheet, Text } from 'react-native';
 
-const { CalendarModule, CameraModule, Counter, ImagePicker } = NativeModules;
+const { CalendarModule, CameraModule, Counter, ImagePicker, ShareContent } = NativeModules;
 
 const App = () => {
   const [image, setImage] = useState('');
@@ -79,6 +79,10 @@ const App = () => {
 
       {/* <Text onPress={onPressOpenCamera}>onPressOpenCamera</Text> */}
 
+      <Button
+        title='Share'
+        onPress={() => ShareContent.share({ message: 'helo with Swift Dev.to Tutorial' })}
+      />
       {image && (
         <Image
           style={styles.logo}

@@ -31,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
             packages.add(new DemoPackage());
             packages.add(new ImagePickerPackage());
             packages.add(new CalendarPackage());
+          packages.add(new SharePackage());
           return packages;
         }
 
